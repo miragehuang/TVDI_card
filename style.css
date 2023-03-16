@@ -1,0 +1,86 @@
+/* 練習： 卡片製作 */
+body {
+    background-color: #eeeeee;
+    font-family: Microsoft YaHei;
+}
+
+.card {
+    background-color: white;
+    width: 450px;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ----------------- */
+
+.top {
+    color: #2ea9df;
+    margin: 35px 0 0 20px;
+    width: 410px;
+    font-size: 20px;
+
+    /* border-bottom: 2px solid #2ea9df; */
+}
+
+.top p {
+    border-bottom: 2px solid #2ea9df
+}
+/* ------------------- */
+/* 把原本block轉換為inline */
+.name ,.contact{
+    display: inline-block;vertical-align: top;margin-left: 20px;
+}
+.name{
+    margin-top: 35px;
+}
+.name p{margin:0;font-weight: bold;}
+
+.chinese{font-size: 18px;}
+.chinese>span{font-size: 12px;}
+.eng{font-size: 2px;}
+
+/* ------------------- */
+.contact{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+/* ------------------- */
+.contact p{
+    margin-bottom: 0;
+}
+.bot{background-color: #1D7FAA;
+    color:white;
+    font-size: 14PX;
+    border-radius: 0 0 10px 10px;position: absolute;bottom: 0px;width: 100%;height: 25%;
+    padding: 12px;
+    box-sizing: border-box;
+
+}
+
+.bot> p{
+    margin: -10px 0 0 20px;
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
